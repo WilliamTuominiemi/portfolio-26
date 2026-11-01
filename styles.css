@@ -20,8 +20,8 @@ body {
 .project {
   border: solid;
   border-radius: 5px;
-  width: 200px;
-  height: 150px;
+  width: 220px;
+  height: 160px;
   padding: 5px;
   display: flex;
   flex-direction: column;
