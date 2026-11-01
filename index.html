@@ -5,51 +5,203 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <div class="section">
-        <h1>
-            William Tuominiemi
-            <a href="https://www.linkedin.com/in/william-tuominiemi/"><img src="public/linkedin.svg" height="25px" width="25px"/></a>
-            <a href="https://github.com/WilliamTuominiemi"><img src="public/github.svg" height="25px" width="25px"/></a>
-        </h1>
-        <p>Software engineer studying computer science</p>
+    <div class="centered-sections">
+        <div class="section">
+            <h1>
+                William Tuominiemi
+                <a href="https://www.linkedin.com/in/william-tuominiemi/"><img src="public/linkedin.svg" height="25px" width="25px"/></a>
+                <a href="https://github.com/WilliamTuominiemi"><img src="public/github.svg" height="25px" width="25px"/></a>
+            </h1>
+            <p>Software engineer studying computer science</p>
+        </div>
+        
+        <div class="section">
+            <h2>Education</h2>
+            <ul>
+                <li>Bachelor of Science in Technology - B.Sc. (Tech.), Computer Science <b>@ Aalto University</b>, 2024-2027 
+                    <ul>
+                        <li>Minor in Industrial Engineering and Management (IEM)</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Work experience</h2>
+            <ul>
+                <li><i>Software Engineering Trainee</i> <b>@ Nokia</b>, 2026 - present
+                    <ul>
+                        <li>Implementing new 5G features according to the 3GPP standards with C++</li>
+                        <li>Creating TTCN3 system component tests to verify functionality of software</li>
+                        <li>Fix issues caused by wrong configuration and software bugs</li>
+                    </ul>
+                </li>
+                <li><i>Junior Software Developer</i> <b>@ Innofactor</b>, 2025 - 2026
+                    <ul>
+                        <li>Web development frontend (Vue.js), backend (.NET C#), and database layers (Microsoft SQL Server)</li>
+                        <li>Orchestrating comprehensive UI/UX enhancements to standardize the application interface</li>
+                        <li>Creating automated end-to-end tests using Playwright to ensure product stability and quality</li>
+                    </ul>
+                </li>
+                <li><i>Trainee</i> @ <b>Innofactor</b>, 2022 - 2023 and 2024 - 2025
+                    <ul>
+                        <li>Fixed frontend bugs and modernized outdated UI components in a Vue.js application</li>
+                        <li>Performed QA testing on the web application to ensure feature stability</li>
+                        <li>Contributed to backend logic and API integration using C#</li>
+                    </ul>
+                </li>
+            </ul>  
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+        </div>
     </div>
     
-    <div class="section">
-        <h2>Education</h2>
-        <ul>
-            <li>Bachelor of Science in Technology - B.Sc. (Tech.), Computer Science <b>@ Aalto University</b>, 2024-2027 
-                <ul>
-                    <li>Minor in Industrial Engineering and Management (IEM)</li>
-                </ul>
-            </li>
-        </ul>
-    </div>
+    <div class="projects">
+        <div class="project">
+            <a href="https://github.com/WilliamTuominiemi/tls-certificate-cli">
+                <h3>tls-certificate-cli</h3>
+            </a>
+            <p>CLI tool to inspect a sites TLS certificate chain</p>
+            <p class="lang">made with Rust</p>
+        </div>
 
-    <div class="section">
-        <h2>Work experience</h2>
-        <ul>
-            <li><i>Software Engineering Trainee</i> <b>@ Nokia</b>, 2026 - present
-                <ul>
-                    <li>Implementing new 5G features according to the 3GPP standards with C++</li>
-                    <li>Creating TTCN3 system component tests to verify functionality of software</li>
-                    <li>Fix issues caused by wrong configuration and software bugs</li>
-                </ul>
-            </li>
-            <li><i>Junior Software Developer</i> <b>@ Innofactor</b>, 2025 - 2026
-                <ul>
-                    <li>Web development frontend (Vue.js), backend (.NET C#), and database layers (Microsoft SQL Server)</li>
-                    <li>Orchestrating comprehensive UI/UX enhancements to standardize the application interface</li>
-                    <li>Creating automated end-to-end tests using Playwright to ensure product stability and quality</li>
-                </ul>
-            </li>
-            <li><i>Trainee</i> @ <b>Innofactor</b>, 2022 - 2023 and 2024 - 2025
-                <ul>
-                    <li>Fixed frontend bugs and modernized outdated UI components in a Vue.js application</li>
-                    <li>Performed QA testing on the web application to ensure feature stability</li>
-                    <li>Contributed to backend logic and API integration using C#</li>
-                </ul>
-            </li>
-        </ul>  
+        <div class="project">
+            <a href="https://github.com/WilliamTuominiemi/IR-signal-cloner">
+                <h3>IR-signal-cloner</h3>
+            </a>
+            <p>Receiving and transmitting IR signals with Arduino & components</p>
+            <p class="lang">made with C++</p>
+        </div>
+
+        <div class="project">
+            <a href="https://github.com/WilliamTuominiemi/orbit-propagator">
+                <h3>orbit-propagator</h3>
+            </a>
+            <p>Calculates satellite orbits using the SGP4 algorithm and displays these orbit ground tracks</p>
+            <p class="lang">made with Rust</p>
+        </div>
+
+        <div class="project">
+            <a href="https://github.com/WilliamTuominiemi/netsniff">
+                <h3>netsniff</h3>
+            </a>
+            <p>Network sniffer for inspecting your computers traffic</p>
+            <p class="lang">made with Rust</p>
+        </div>
+
+        <div class="project">
+            <a href="https://github.com/WilliamTuominiemi/monte-carlo-rs">
+                <h3>monte-carlo-rs</h3>
+            </a>
+            <p>Monte Carlo simulation to estimate the value of π</p>
+            <p class="lang">made with Rust</p>
+        </div>
+
+        <div class="project">
+            <a href="https://github.com/WilliamTuominiemi/cube-rs">
+                <h3>cube-rs</h3>
+            </a>
+            <p>Spinning cube in the terminal</p>
+            <p class="lang">made with Rust</p>
+        </div>
+
+        <div class="project">
+            <a href="https://github.com/WilliamTuominiemi/snake-rs">
+                <h3>snake-rs</h3>
+            </a>
+            <p>Snake game in your terminal using crossterm</p>
+            <p class="lang">made with Rust</p>
+        </div>
+
+        <div class="project">
+            <a href="https://github.com/WilliamTuominiemi/Vustu">
+                <h3>Vustu</h3>
+            </a>
+            <p>Vustu is a simple, privacy-friendly video editor built with Vue 3 ran on only the client</p>
+            <p class="lang">made with Vue.js</p>
+        </div>
+
+        <div class="project">
+            <a href="https://github.com/WilliamTuominiemi/Eisko-hackathon">
+                <h3>Eisko-hackathon</h3>
+            </a>
+            <p>Computer vision Since AI hackathon project for identifying components from schematics</p>
+            <p class="lang">made with Python</p>
+        </div>
+
+        <div class="project">
+            <a href="https://github.com/WilliamTuominiemi/planetary-system-simulator">
+                <h3>planetary-system-sim</h3>
+            </a>
+            <p>2D simulation of a planetary system with a star and celestial objects</p>
+            <p class="lang">made with C++</p>
+        </div>
+
+        <div class="project">
+            <a href="https://github.com/WilliamTuominiemi/tersoli">
+                <h3>tersoli</h3>
+            </a>
+            <p>Play solitaire in your terminal</p>
+            <p class="lang">made with Rust</p>
+        </div>
+
+        <div class="project">
+            <a href="https://github.com/WilliamTuominiemi/dualshock4-tester">
+                <h3>dualshock4-tester</h3>
+            </a>
+            <p>Terminal-based tool for testing a DualShock4 controllers condition</p>
+            <p class="lang">made with Rust</p>
+        </div>
+
+        <div class="project">
+            <a href="https://github.com/WilliamTuominiemi/gate-binary-classification">
+                <h3>gate-binary-classification</h3>
+            </a>
+            <p>Simple neural network from scratch to model basic logic gates</p>
+            <p class="lang">made with Python</p>
+        </div>
+
+        <div class="project">
+            <a href="https://github.com/WilliamTuominiemi/chuss">
+                <h3>chuss</h3>
+            </a>
+            <p>1v1 chess game</p>
+            <p class="lang">made with Rust</p>
+        </div>
+
+        <div class="project">
+            <a href="https://github.com/WilliamTuominiemi/GIFRec">
+                <h3>GIFRec</h3>
+            </a>
+            <p>Screen recorder for Linux that outputs a gif</p>
+            <p class="lang">made with Python</p>
+        </div>
+
+        <div class="project">
+            <a href="https://github.com/WilliamTuominiemi/Minesweeper">
+                <h3>Minesweeper</h3>
+            </a>
+            <p>Classic Minesweeper game with SDL2 library for graphics rendering</p>
+            <p class="lang">made with C++</p>
+        </div>
+
+        <div class="project">
+            <a href="https://github.com/WilliamTuominiemi/NFT-Art-Platform">
+                <h3>NFT-Art-Platform</h3>
+            </a>
+            <p>Social media for creating and sharing artwork</p>
+            <p class="lang">made with TypeScript</p>
+        </div>
+
+         <div class="project">
+            <a href="https://github.com/WilliamTuominiemi/blackjack">
+                <h3>blackjack</h3>
+            </a>
+            <p>Console based blackjack game where you play against the dealer</p>
+            <p class="lang">made with C++</p>
+        </div>
     </div>
 </body>
 </html>
